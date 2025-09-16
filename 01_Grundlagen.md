@@ -9,7 +9,7 @@
 
 ---
 
-## 📜 Vorwort
+## Vorwort
 
 Starke Anonymität soll besonders **Risikogruppen** Schutz gegen Repressionen bieten.
 Es gibt viele Gründe, warum Menschen Repressionen fürchten:
@@ -32,7 +32,7 @@ Starke Anonymisierung macht **Tracking** und **Profilbildung** unmöglich.
 
 ## 🏁 Grundlagen
 
-### 🌍 Clearnet vs. Darknet
+### Clearnet vs. Darknet
 
 * **Darknet (Tor)**
 
@@ -44,14 +44,14 @@ Starke Anonymisierung macht **Tracking** und **Profilbildung** unmöglich.
     Viele Webseiten blockieren TOR-Exitnodes oder erkennen VPNs.
   * Beispiel: **DHL Packstation** sperrt Zugänge nach erstem TOR-Login.
 
-> 💡 **Praxis-Tipp**
+> **Praxis-Tipp**
 >
 > * Für Darknet → **Tor**
 > * Für Clearnet → **sauberes VPN**, unauffällige Verbindung, kein TOR.
 
 ---
 
-### 🔓 Open Source vs. Closed Source
+### Open Source vs. Closed Source
 
 * **Freie Software (Linux, Firefox …)**
 
@@ -62,12 +62,12 @@ Starke Anonymisierung macht **Tracking** und **Profilbildung** unmöglich.
 
   * Quellcode nicht einsehbar → unklare Hintergrundprozesse.
 
-> ✅ **Fazit**:
+> **Fazit**:
 > Linux bietet **mehr Transparenz** und ist im Regelfall **sicherer** als Windows.
 
 ---
 
-### 👁️ Tracker
+### Tracker
 
 Viele Webseiten binden Tracker ein, die das Surfverhalten aufzeichnen.
 
@@ -79,7 +79,7 @@ Viele Webseiten binden Tracker ein, die das Surfverhalten aufzeichnen.
 
 ---
 
-### 🍪 Cookies
+### Cookies
 
 * **Was sind Cookies?**
   Kleine Dateien, die Surfverhalten und Sitzungen speichern.
@@ -94,42 +94,42 @@ Viele Webseiten binden Tracker ein, die das Surfverhalten aufzeichnen.
 
 ---
 
-### ⚡ Adobe Flash
+### Adobe Flash
 
 * Historisch viele Sicherheitslücken.
 * Heute dank **HTML5** überflüssig → **deaktivieren** oder deinstallieren.
 
 ---
 
-### 🔒 NoScript
+### NoScript
 
 * Add-on für Firefox, blockiert **JavaScript** und andere aktive Inhalte.
 * Standard: Alle Skripte blockiert → nur manuelles Freigeben pro Seite.
 
 ---
 
-### 🌐 WebRTC
+### WebRTC
 
 * Kann **lokale IP-Adresse** und **öffentliche IP** trotz VPN/Tor preisgeben.
 * **Lösung:** Add-on `Disable WebRTC`.
 
 ---
 
-### 🕵️‍♂️ Fake User-Agent
+### Fake User-Agent
 
 * Jeder Webseitenaufruf übermittelt Browser- & Systeminformationen (**Fingerprinting**).
 * **Gegenmaßnahme:** Add-on `Secret Agent` → rotiert User-Agent-Strings.
 
 ---
 
-### ↩️ Referrer
+### Referrer
 
 * Überträgt die **Herkunfts-URL** bei jedem Linkklick.
 * **Add-on:** `RefControl` → erlaubt gezieltes Blockieren.
 
 ---
 
-### 🔧 Modus des Browsers
+### Modus des Browsers
 
 * Firefox so einstellen, dass **alle Daten beim Schließen gelöscht** werden:
 
@@ -138,7 +138,7 @@ Viele Webseiten binden Tracker ein, die das Surfverhalten aufzeichnen.
 
 ---
 
-### 🔍 Suchmaschinen
+### Suchmaschinen
 
 Alternative Suchdienste ohne Tracking:
 
@@ -148,7 +148,7 @@ Alternative Suchdienste ohne Tracking:
 
 ---
 
-### 🔐 HTTPS benutzen
+### HTTPS benutzen
 
 * HTTP = unverschlüsselt → leicht abhörbar.
 * **Add-on:** [`HTTPS Everywhere`](https://www.eff.org/https-everywhere)
@@ -156,7 +156,7 @@ Alternative Suchdienste ohne Tracking:
 
 ---
 
-### 🛡️ VPN
+### VPN
 
 * Pflicht für echte Anonymität:
 
@@ -166,7 +166,7 @@ Alternative Suchdienste ohne Tracking:
 
 ---
 
-### 🧅 Tor-Netzwerk
+### Tor-Netzwerk
 
 * **Onion-Routing**: Mehrere verschlüsselte Knoten weltweit.
 * Einfachste Nutzung: [Tor Browser](https://www.torproject.org/).
@@ -174,16 +174,9 @@ Alternative Suchdienste ohne Tracking:
 
 ---
 
-### ✅ Fazit
+### Fazit
 
 Diese Grundlagen bilden die **Basis jeder Anonymitäts-Strategie**.
 Alle weiteren Kapitel bauen auf diesen Schutzmaßnahmen auf.
-
----
-
-💡 **Nächster Schritt**
-Im Repo findest du diese Inhalte als Datei
-[`01_Grundlagen.md`](../01_Grundlagen.md).
-Wir können jetzt mit **Kapitel 2: Browser-Hardening** weitermachen und es genauso überarbeiten.
 
 ---
