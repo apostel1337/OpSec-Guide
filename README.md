@@ -1,6 +1,6 @@
 # 🕵️ Advanced Anonymity & OpSec Guide
 
-## 📖 Inhaltsverzeichnis
+## Inhaltsverzeichnis
 - [Vorwort](01_Grundlagen.md)
 - [Grundlagen](02_Browser_Hardening.md)
 - [Microsoft Windows ist immer unsicher](03_Windows.md)
