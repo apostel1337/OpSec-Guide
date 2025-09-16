@@ -9,7 +9,7 @@
 
 ---
 
-## 🔑 Empfohlene Software: VeraCrypt
+## Empfohlene Software: VeraCrypt
 
 * Offizieller Nachfolger von **TrueCrypt**
 * Kostenlos für **Windows, Linux und macOS**
@@ -19,7 +19,7 @@
 
 ---
 
-## 📦 Was kann verschlüsselt werden?
+## Was kann verschlüsselt werden?
 
 * **Einzelne Ordner** (Container-Datei)
 * **Komplette Partitionen**
@@ -28,7 +28,7 @@
 
 ---
 
-## 🧰 Container-Prinzip
+## Container-Prinzip
 
 Ein Container ist wie ein **digitaler Tresor**:
 
@@ -43,7 +43,7 @@ Ein Container ist wie ein **digitaler Tresor**:
 
 ---
 
-## 🔒 Container erstellen (Schritt-für-Schritt)
+## Container erstellen (Schritt-für-Schritt)
 
 1. **VeraCrypt als Administrator starten**
 
@@ -78,7 +78,7 @@ Nach Abschluss erscheint die Meldung:
 
 ---
 
-## 📂 Container einbinden (Mounten)
+## Container einbinden (Mounten)
 
 1. VeraCrypt starten.
 2. **Freien Laufwerksbuchstaben** auswählen.
@@ -89,7 +89,7 @@ Nach Abschluss erscheint die Meldung:
 
 ---
 
-## 🛡️ Best Practices
+## Best Practices
 
 * **Starke Passwörter** (lang + Sonderzeichen).
 * Keine Hinweise auf das Passwort speichern.
@@ -98,7 +98,7 @@ Nach Abschluss erscheint die Meldung:
 
 ---
 
-## ✅ Zusammenfassung
+## Zusammenfassung
 
 * VeraCrypt bietet **militärische Sicherheit** bei einfacher Bedienung.
 * Containerdateien sind ideal für **USB-Sticks** oder portable Datenträger.
