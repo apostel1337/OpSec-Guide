@@ -6,9 +6,9 @@ Dieses Kapitel zeigt, wie man den **Webbrowser** absichert, um Tracking, Fingerp
 
 ---
 
-## 🌍 Firefox Add-ons & Einstellungen
+## Firefox Add-ons & Einstellungen
 
-### 🔧 NoScript
+### NoScript
 
 * Blockiert **JavaScript** und andere aktive Elemente.
 * Standardmäßig sind **alle Skripte verboten**.
@@ -21,7 +21,7 @@ Dieses Kapitel zeigt, wie man den **Webbrowser** absichert, um Tracking, Fingerp
 
 ---
 
-### 🔒 HTTPS Everywhere
+### HTTPS Everywhere
 
 * Erzwingt verschlüsselte **HTTPS-Verbindungen**, wenn verfügbar.
 * Entwickelt von der **Electronic Frontier Foundation (EFF)**.
@@ -29,7 +29,7 @@ Dieses Kapitel zeigt, wie man den **Webbrowser** absichert, um Tracking, Fingerp
 
 ---
 
-### 🕵️ Privacy Badger
+### Privacy Badger
 
 * Blockiert **Tracker** und verhindert Übermittlung von Daten an Dritte.
 * Ebenfalls ein Projekt der **EFF**.
@@ -37,7 +37,7 @@ Dieses Kapitel zeigt, wie man den **Webbrowser** absichert, um Tracking, Fingerp
 
 ---
 
-### 🍪 Cookies
+### Cookies
 
 * Cookies speichern **Nutzersitzungen** und erlauben eindeutige Zuordnung.
 
@@ -52,14 +52,14 @@ Dieses Kapitel zeigt, wie man den **Webbrowser** absichert, um Tracking, Fingerp
 
 ---
 
-### 🌐 WebRTC
+### WebRTC
 
 * Kann trotz VPN/Tor die **lokale IP-Adresse** preisgeben.
 * **Add-on:** [Disable WebRTC](https://addons.mozilla.org/) deaktiviert die Übermittlung.
 
 ---
 
-### 🕵️‍♂️ Fake User-Agent
+### Fake User-Agent
 
 * Webseiten lesen den **User-Agent-String** (Browsername, Version, Betriebssystem, Schriftarten).
 * Dient dem **Fingerprinting** und ermöglicht Wiedererkennung.
@@ -71,7 +71,7 @@ Dieses Kapitel zeigt, wie man den **Webbrowser** absichert, um Tracking, Fingerp
 
 ---
 
-### ↩️ Referrer
+### Referrer
 
 * Übermittelt beim Klicken auf Links die **Herkunfts-URL** an die Zielseite.
 
@@ -82,7 +82,7 @@ Dieses Kapitel zeigt, wie man den **Webbrowser** absichert, um Tracking, Fingerp
 
 ---
 
-## ⚡ Adobe Flash
+## Adobe Flash
 
 * Historisch **zahlreiche Sicherheitslücken**.
 * Heutzutage durch **HTML5** ersetzt → **deinstallieren oder deaktivieren**.
@@ -94,7 +94,7 @@ Dieses Kapitel zeigt, wie man den **Webbrowser** absichert, um Tracking, Fingerp
 
 ---
 
-## 🔧 Firefox `about:config` Hardening
+## Firefox `about:config` Hardening
 
 Viele wichtige Sicherheitsoptionen sind nur über `about:config` erreichbar.
 In der Adresszeile `about:config` eingeben und mit **Vorsicht** ändern.
@@ -135,7 +135,7 @@ extensions.blocklist.enabled = false
 
 ---
 
-## 🔍 Suchmaschinen ohne Tracking
+## Suchmaschinen ohne Tracking
 
 * [DuckDuckGo](https://duckduckgo.com/) – speichert keine IPs oder Nutzerprofile.
 * [StartPage](https://www.startpage.com/) – Google-Ergebnisse ohne personalisierte Suche.
@@ -143,7 +143,7 @@ extensions.blocklist.enabled = false
 
 ---
 
-## 🔐 VPN (als Ergänzung)
+## VPN (als Ergänzung)
 
 * Ein **VPN** ist Pflicht für echte Anonymität.
 * Vorteile:
@@ -154,7 +154,7 @@ extensions.blocklist.enabled = false
 
 ---
 
-## ✅ Zusammenfassung Browser Hardening
+## Zusammenfassung Browser Hardening
 
 1. **VPN + Firefox** als Basis.
 2. Add-ons: `NoScript`, `HTTPS Everywhere`, `Privacy Badger`, `RefControl`, `Secret Agent`.
