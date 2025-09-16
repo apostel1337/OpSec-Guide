@@ -319,7 +319,7 @@ user_pref("javascript.options.native_regexp", false); // Deaktiviert die nativen
 
 > 💡 **Tipp:**
 > Werte zuerst in einer **Test-Installation** prüfen, bevor du sie auf deinem Hauptsystem nutzt.
-> **Credits:** [xqi conf](https://github.com/xqi1337/FireFox-Cfg/)
+> **Credits:** [xqi](https://github.com/xqi1337/FireFox-Cfg/)
 ---
 
 ## Empfohlene Add-ons
