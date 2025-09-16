@@ -37,7 +37,7 @@
 
 ## Stage 2 – Tails (The Amnesic Incognito Live System)
 
-### 💡 Was ist Tails?
+### Was ist Tails?
 
 * Ein **Live-Betriebssystem**, das sich von **USB-Stick oder DVD** starten lässt.
 * Entwickelt, um **keinerlei Spuren** auf dem genutzten Computer zu hinterlassen.
