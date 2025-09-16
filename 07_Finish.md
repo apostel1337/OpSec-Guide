@@ -2,13 +2,13 @@
 
 ### Kapitel 7 – Finish
 
-> ✅ **Herzlichen Glückwunsch!**
+> **Herzlichen Glückwunsch!**
 > Du hast nun alle wichtigen Grundlagen, Tools und Setups kennengelernt,
 > um deine **digitale Privatsphäre** zu schützen und **anonym im Internet** zu agieren.
 
 ---
 
-## 🧩 Zusammenfassung der Security-Stufen
+## Zusammenfassung der Security-Stufen
 
 | Schutzebene         | Tools & Maßnahmen                         | Schwierigkeit   | Anonymität |
 | ------------------- | ----------------------------------------- | --------------- | ---------- |
@@ -19,7 +19,7 @@
 
 ---
 
-## 💡 Grundprinzipien
+## Grundprinzipien
 
 1. **Defense in Depth**
 
@@ -37,7 +37,7 @@
 
 ---
 
-## 🔁 Nächste Schritte
+## Nächste Schritte
 
 * Überprüfe regelmäßig, ob deine Tools noch aktuell und sicher sind.
 * Beobachte neue Entwicklungen (z. B. Browser-Fingerprinting-Techniken).
@@ -45,20 +45,20 @@
 
 ---
 
-## 💬 Feedback & Mitarbeit
+## Feedback & Mitarbeit
 
 Dieser Guide lebt von **Community-Feedback**.
 
-* 💡 Verbesserungsvorschläge oder neue Tools?
+* Verbesserungsvorschläge oder neue Tools?
   ➜ **Pull Request** oder **Issue** im [GitHub-Repo](./README.md).
-* 📧 Fragen oder Ideen?
+* Fragen oder Ideen?
   ➜ Gerne über Issues diskutieren.
 
-> ✍️ **Dein Beitrag hilft**, die Anonymität und Sicherheit aller Nutzer zu verbessern.
+> **Dein Beitrag hilft**, die Anonymität und Sicherheit aller Nutzer zu verbessern.
 
 ---
 
-## ✅ Abschluss
+## Abschluss
 
 Du bist jetzt in der Lage:
 
