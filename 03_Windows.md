@@ -1,43 +1,104 @@
-#######################################################################################
+## 🕵️ Advanced Anonymity & OpSec Guide
 
-Mit Windows 8.0 hat Microsoft begonnen, dass bei Smartphones akzeptierte Device- based Tracking auch bei PCs einzuführen. Ähnlich wie Google bei Android will Microsoft als einer der fünf größten Datensammler im Internet seine Datenbestände erweitern und besser personalisieren. Das war der Anfang.
-Das Erstellen eines User-Account unter Windows 8.1 wurde ein echtes Dark Pattern. Der Nutzer wird massiv gedrängt, den User-Account auf dem Rechner mit einem Online Konto bei Hotmail oder Windows Live zu verbinden. Nur wenn man in der Eingabemaske falsche Angaben macht, findet man in der Fehlermeldung den unscheinbaren Link für das Erstellen eines User-Account ohne Online Konto bei Microsoft.
-In Windows 10 wurde das Device-based Tracking weiter ausgebaut. Es wird für jeden Account auf dem Rechner eine "Unique Advertising ID" generiert. Diese ID wird auch Dritten zur eindeutigen Identifikation zur Verfügung gestellt.
+### Kapitel 3 – Microsoft Windows ist immer unsicher
 
-In der neuen Privacy Policy von Microsoft (April 2018) steht außerdem:
-We will access, disclose and preserve personal data, including your content (such as the content of your emails, other private communications or files in private folders), when we have a good faith belief that doing so is necessary ...
-Privaten Daten, die Microsoft in der Standardkonfiguration sammelt:
+> ⚠️ **Hinweis**
+> Dieses Kapitel beschreibt Datenschutz- und Sicherheitsprobleme von **Microsoft Windows**.
+> Ziel ist **Aufklärung**, nicht Panikmache.
+> Wer maximale Privatsphäre will, sollte die Risiken kennen und alternative Systeme in Betracht ziehen.
 
-#Persönliche Interessen, die sich aus dem Surfverhalten ergeben sowie aus den per Apps gesammelten Daten werden an Microsoft gesendet (eine Sport-App sendet die bevorzugten Teams, eine Wetter-App die häufig angefragten Städte...)
+---
 
-#Standortdaten aller Geräte mit Windows werden an Microsoft übertragen. Es wird bevorzugt GPS oder die WLANs der Umgebung genutzt, um den Standort so genau wie möglich zu bestimmen.
+## 🖥️ Einführung
 
-#Kontaktdaten der Freunde und Bekannten werden an Microsoft übertragen, wenn man Tools von Microsoft als Adressbuch nutzt.
+Mit **Windows 8.0** begann Microsoft, bei PCs ähnliche Tracking-Mechanismen einzuführen,
+wie man sie von Smartphones kennt.
+Seitdem hat sich die **Datensammlung** mit jeder Version (8.1, 10, 11) weiter verstärkt.
 
-#Inhalte von E-Mails, Instant Messages und Voice/Vidoe Messages (z.B Skype) gehören ebenfalls zu den den Daten, die Microsoft sammelt.
+---
 
-#Der Windows Defender übermittelt alle installierten Anwendungen.
+## 📊 Beispiele für Datensammlung
 
-#Mit der digitalen Assistentin "Cortana" wird in der Standardkonfiguration eine Art Abhörzentrale eingerichtet, die das Wohnzimmer direkt mit Microsoft verbindet.
+| Bereich                     | Gesammelte Daten                                                 | Anmerkung                       |
+| --------------------------- | ---------------------------------------------------------------- | ------------------------------- |
+| **Nutzungsprofil**          | Surfverhalten, App-Aktivitäten, persönliche Interessen           | für personalisierte Werbung     |
+| **Standortdaten**           | GPS, WLAN-Umgebung, IP-Standort                                  | möglichst genaue Bestimmung     |
+| **Kontakte**                | Adressbücher, Freundeslisten                                     | bei Nutzung von Microsoft-Tools |
+| **Kommunikation**           | Inhalte von E-Mails, Instant Messages, Voice/Video (z. B. Skype) | laut Privacy Policy             |
+| **Systemdaten**             | Installierte Anwendungen (über Windows Defender)                 |                                 |
+| **Eingabeverhalten**        | Tastaturanschläge (Keystroke Biometrics)                         | zur Musteranalyse               |
+| **Geräte-ID**               | „Unique Advertising ID“ für jedes Benutzerkonto                  | von Drittanbietern nutzbar      |
+| **BitLocker Recovery Keys** | Automatische Sicherung in der Microsoft Cloud                    | auch für Behörden zugänglich    |
 
-#Mit dem Anniversary Update zum 02. August 2016 wird es fast unmöglich gemacht, die aufdringliche, spionierende "Cortana" abzuschalten, da die digitale Assistentin die komplette Suche bereitstellt (sowohl lokal als auch im Web).
-Das Schreibverhalten wird analysiert und an Microsoft gesendet. Das Profil der typischen Tastenanschläge könnte zukünftig für die Identifikation bei Texteingaben in Webformularen oder Chats genutzt werden (Stichwort: Keystroke Biometrics).
+---
 
-#Die eindeutige UUID, die Windows bei der Kommunikation mit Microsoft­servern sendet (z.B. bei Softwareupdates), wird vom NSA und GCHQ als Selektor für Taylored Access Operations (TAO) verwendet, um gezielt die Computer von interessanten Personen oder Firmen anzugreifen.
+## 🔎 Besondere Kritikpunkte
 
-#Als besonderes Highlight gehören auch die automatisch generierten Recovery Keys der Festplattenverschlüsselung Bitlocker zu den Daten, die MS in seiner Cloud sammelt und NSA/FBI/CIA zur Verfügung stellt. (Crypto War 3.0?)
+### Windows 8 / 8.1
 
-Mit Windows 10 Pro oder Enterprise kann man den Upload des Recovery Key verhindern, indem man den Rechner einmal komplett verschlüsselt (mit Key Upload), dann die Verschlüsselung deaktiviert (damit muss das System wieder komplett entschlüsselt werden), den alten Recovery Schlüssel löscht und nochmal den Rechner komplett verschlüsselt. Erst beim zweiten Versuch wird man gefragt, ob man den Recovery Key evtl. lokal sichern möchte. Das kostet Zeit und ist auch wieder ein echtes Dark Pattern in der Benutzerführung.
+* Einführung von **Device-based Tracking**.
+* Einrichtung eines **Online-Kontos** wird aggressiv beworben („Dark Pattern“).
+* Nur durch falsche Angaben gelang es, ein reines **lokales Konto** zu erstellen.
 
-Wenn man es schafft, einen Benutzeraccount ohne Cloud Anbindung einzurichten und in den Einstellungen unter Datenschutz die Privacy Features aktiviert, kann man die Sammelleidenschaft etwas reduzieren aber nicht vollständig abstellen.
+### Windows 10
 
-Experten des BSI warnen seit 2013 vor dem Einsatz von Windows 8 in Kombination mit TPM 2.0 und bezeichneten es als inakzeptables Sicherheitsrisiko für Behörden und Firmen. Nutzer eines Trusted-Computing-Systems verlieren nach Ansicht der Experten die Kontrolle über ihren Computer.
-Aus Sicht des BSI geht der Einsatz von Windows 8 in Kombination mit einem TPM 2.0 mit einem Verlust an Kontrolle über das verwendete Betriebssystem und die eingesetzte Hardware einher. Daraus ergeben sich für die Anwender, speziell auch für die Bundesverwaltung und kritische Infrastrukturen, neue Risiken.
+* Weiterer Ausbau der Datensammlung:
 
-Fazit:
+  * Generiert für jeden Account eine **Advertising ID**.
+  * Neue Privacy Policy (2018):
 
-Windows ist also alles andere als sicher und bestimmt nicht gut für unsere Zwecke geeignet. Daher empfehlen wir, wenn es unbedingt Windows sein muss eine ältere Version wie Windows XP oder deren Nachfolger zu benutzten.
+    > „We will access, disclose and preserve personal data, including your content… when we have a good faith belief…“
 
+* **Cortana**:
 
+  * Standardmäßig aktiv – quasi eine „Abhörzentrale“ im Wohnzimmer.
+  * Ab Anniversary Update (2016) kaum noch vollständig abschaltbar.
 
-#######################################################################################
+* **BitLocker**:
+
+  * Automatisch generierte **Recovery Keys** werden in die Cloud hochgeladen,
+    sofern man dies nicht manuell verhindert.
+
+### Windows & Geheimdienste
+
+* Die eindeutige UUID, die bei Kommunikation mit Microsoft-Servern übermittelt wird,
+  dient laut Berichten als Selektor für NSA/GCHQ (**Tailored Access Operations**).
+
+---
+
+## 🛡️ Gegenmaßnahmen (nur teilweise wirksam)
+
+* **Lokales Benutzerkonto** statt Microsoft-Konto verwenden.
+* In den **Datenschutzeinstellungen** sämtliche Telemetrie deaktivieren.
+  ➜ Allerdings lassen sich viele Dienste **nicht vollständig abschalten**.
+* Bei BitLocker:
+
+  1. Erst verschlüsseln (mit Key-Upload),
+  2. dann **Entschlüsselung** durchführen,
+  3. erneut verschlüsseln → erst beim zweiten Mal kann man den Key lokal speichern.
+
+> ⚠️ **Hinweis**
+> Diese Maßnahmen reduzieren, aber **eliminieren nicht** die Datensammlung.
+
+---
+
+## ⚠️ Bewertung durch Behörden
+
+* **BSI (Bundesamt für Sicherheit in der Informationstechnik)**
+  warnte bereits 2013 vor Windows 8 in Kombination mit **TPM 2.0**.
+
+  * Risiko: Verlust der Kontrolle über Hard- und Software.
+  * Einstufung als **inakzeptables Sicherheitsrisiko** für Behörden und kritische Infrastrukturen.
+
+---
+
+## ✅ Fazit
+
+* Windows ist für **starke Anonymität** **nicht geeignet**.
+* Wer auf Windows angewiesen ist:
+
+  * **Ältere Versionen** (z. B. Windows XP oder 7) bieten weniger Telemetrie,
+    sind jedoch sicherheitstechnisch veraltet.
+* Für maximale Privatsphäre → **Linux-Distributionen** wie **Debian**, **Tails** oder **Qubes OS**.
+
+---
