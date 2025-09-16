@@ -17,7 +17,7 @@ Seitdem hat sich die **Datensammlung** mit jeder Version (8.1, 10, 11) weiter ve
 
 ---
 
-## 📊 Beispiele für Datensammlung
+## Beispiele für Datensammlung
 
 | Bereich                     | Gesammelte Daten                                                 | Anmerkung                       |
 | --------------------------- | ---------------------------------------------------------------- | ------------------------------- |
