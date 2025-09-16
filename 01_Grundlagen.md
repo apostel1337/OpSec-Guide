@@ -30,7 +30,7 @@ Starke Anonymisierung macht **Tracking** und **Profilbildung** unmöglich.
 
 ---
 
-## 🏁 Grundlagen
+## Grundlagen
 
 ### Clearnet vs. Darknet
 
