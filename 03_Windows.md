@@ -9,7 +9,7 @@
 
 ---
 
-## 🖥️ Einführung
+## Einführung
 
 Mit **Windows 8.0** begann Microsoft, bei PCs ähnliche Tracking-Mechanismen einzuführen,
 wie man sie von Smartphones kennt.
@@ -32,7 +32,7 @@ Seitdem hat sich die **Datensammlung** mit jeder Version (8.1, 10, 11) weiter ve
 
 ---
 
-## 🔎 Besondere Kritikpunkte
+## Besondere Kritikpunkte
 
 ### Windows 8 / 8.1
 
@@ -66,7 +66,7 @@ Seitdem hat sich die **Datensammlung** mit jeder Version (8.1, 10, 11) weiter ve
 
 ---
 
-## 🛡️ Gegenmaßnahmen (nur teilweise wirksam)
+## Gegenmaßnahmen (nur teilweise wirksam)
 
 * **Lokales Benutzerkonto** statt Microsoft-Konto verwenden.
 * In den **Datenschutzeinstellungen** sämtliche Telemetrie deaktivieren.
@@ -82,7 +82,7 @@ Seitdem hat sich die **Datensammlung** mit jeder Version (8.1, 10, 11) weiter ve
 
 ---
 
-## ⚠️ Bewertung durch Behörden
+## Bewertung durch Behörden
 
 * **BSI (Bundesamt für Sicherheit in der Informationstechnik)**
   warnte bereits 2013 vor Windows 8 in Kombination mit **TPM 2.0**.
@@ -92,7 +92,7 @@ Seitdem hat sich die **Datensammlung** mit jeder Version (8.1, 10, 11) weiter ve
 
 ---
 
-## ✅ Fazit
+## Fazit
 
 * Windows ist für **starke Anonymität** **nicht geeignet**.
 * Wer auf Windows angewiesen ist:
