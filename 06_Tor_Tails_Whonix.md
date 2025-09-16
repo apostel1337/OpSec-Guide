@@ -11,20 +11,20 @@
 
 ---
 
-## 🟢 Stage 1 – Tor-Browser-Bundle
+## Stage 1 – Tor-Browser-Bundle
 
-### 🌐 Was ist Tor?
+### Was ist Tor?
 
 * **Onion-Routing**: Daten werden über mehrere, weltweit verteilte **Tor-Knoten** verschlüsselt geleitet.
 * Jeder Knoten kennt nur seinen **direkten Nachbarn**, nicht den gesamten Pfad.
 * Am **Exit-Knoten** wird der Datenstrom entschlüsselt – daher **HTTPS** nutzen!
 
-### ✅ Vorteile
+### Vorteile
 
 * Sehr einfacher Einstieg in anonyme Kommunikation.
 * Keine Installation zusätzlicher Komponenten nötig.
 
-### 🔧 Nutzung
+### Nutzung
 
 1. **Tor Browser** von der offiziellen Website laden:
    [https://www.torproject.org/](https://www.torproject.org/)
@@ -35,7 +35,7 @@
 
 ---
 
-## 🟠 Stage 2 – Tails (The Amnesic Incognito Live System)
+## Stage 2 – Tails (The Amnesic Incognito Live System)
 
 ### 💡 Was ist Tails?
 
@@ -49,13 +49,13 @@
   * Office-Paket
   * Audio-/Bildbearbeitung
 
-### 📦 Vorteile
+### Vorteile
 
 * Komplett unabhängiges Betriebssystem.
 * Keine Installation auf dem Host-Rechner notwendig.
 * Option für **Windows-XP-Tarnmodus** (für unauffällige Nutzung).
 
-### 🔧 Installation auf USB-Stick
+### Installation auf USB-Stick
 
 1. **Download**
 
@@ -78,9 +78,9 @@
 
 ---
 
-## 🔴 Stage 3 – Whonix High-Security System
+## Stage 3 – Whonix High-Security System
 
-### 🖥️ Konzept
+### Konzept
 
 * **Debian-basierte Linux-Distribution**, die konsequent auf **Tor** setzt.
 * Besteht aus **zwei virtuellen Maschinen**:
@@ -88,13 +88,13 @@
   1. **Gateway** – leitet alle Verbindungen über Tor.
   2. **Workstation** – isolierte Umgebung für tägliche Arbeit.
 
-### ✅ Vorteile
+### Vorteile
 
 * Sämtlicher Netzwerkverkehr wird **zwangsläufig durch Tor geleitet**.
 * Updates erfolgen automatisch über Tor.
 * Host-System bleibt isoliert.
 
-### 🔧 Benötigte Software
+### Benötigte Software
 
 * **VirtualBox** – Virtualisierungssoftware
   [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
@@ -102,7 +102,7 @@
   [https://www.whonix.org/wiki/Download](https://www.whonix.org/wiki/Download)
 * Optional: Beliebiges Gastbetriebssystem (z. B. Windows 7) für die Workstation.
 
-### 💡 Installation
+### Installation
 
 1. **VirtualBox installieren**.
 2. Whonix-Images (Gateway & Workstation) importieren:
@@ -122,7 +122,7 @@
 
 ---
 
-## 🔐 Vergleich der Security Stages
+## Vergleich der Security Stages
 
 | Stage | System      | Schwierigkeit   | Anonymität                   | Einsatzgebiet                       |
 | ----- | ----------- | --------------- | ---------------------------- | ----------------------------------- |
@@ -132,7 +132,7 @@
 
 ---
 
-## ✅ Zusammenfassung
+## Zusammenfassung
 
 * **Tor-Browser**: Schnell und einfach → ideal für Einsteiger.
 * **Tails**: Komplettes Live-System → keine Spuren auf dem Rechner.
