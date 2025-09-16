@@ -8,7 +8,7 @@
 
 ---
 
-## 🌐 Warum Firefox?
+## Warum Firefox?
 
 * **Open Source** → Quellcode überprüfbar, keine proprietären Hintertüren.
 * Riesige **Community** → Viele Sicherheits-Add-ons und Anleitungen.
@@ -18,7 +18,7 @@ Download: [Mozilla Firefox – Alle Versionen](https://www.mozilla.org/en-US/fir
 
 ---
 
-## 🔧 about\:config – Der Konfigurations-Editor
+## about\:config – Der Konfigurations-Editor
 
 Mit `about:config` erhältst du Zugriff auf **versteckte Einstellungen** aus den Dateien `prefs.js` und `user.js`.
 
@@ -31,7 +31,7 @@ Mit `about:config` erhältst du Zugriff auf **versteckte Einstellungen** aus den
 
 ---
 
-## 📑 Empfohlene Konfigurationen
+## Empfohlene Konfigurationen
 
 ```ini
 media.peerconnection.enabled = false       # Deaktiviert WebRTC (verhindert IP-Leaks)
@@ -66,7 +66,7 @@ extensions.blocklist.enabled = false
 
 ---
 
-## 🔑 Empfohlene Add-ons
+## Empfohlene Add-ons
 
 | Add-on               | Funktion                                 | Link                                                     |
 | -------------------- | ---------------------------------------- | -------------------------------------------------------- |
@@ -79,7 +79,7 @@ extensions.blocklist.enabled = false
 
 ---
 
-## 🌐 Suchmaschinen ohne Tracking
+## Suchmaschinen ohne Tracking
 
 * [DuckDuckGo](https://duckduckgo.com/) – keine Speicherung von IP oder Suchhistorie.
 * [StartPage](https://www.startpage.com/) – Google-Ergebnisse ohne Profiling.
@@ -87,7 +87,7 @@ extensions.blocklist.enabled = false
 
 ---
 
-## 🔄 Sitzungsverwaltung
+## Sitzungsverwaltung
 
 * Firefox unter `Settings → Privacy` so konfigurieren,
   dass **alle Daten beim Schließen gelöscht** werden:
@@ -97,7 +97,7 @@ extensions.blocklist.enabled = false
 
 ---
 
-## ✅ Zusammenfassung
+## Zusammenfassung
 
 1. Firefox installieren und **Add-ons** hinzufügen.
 2. `about:config`-Werte anpassen, um Tracking zu minimieren.
