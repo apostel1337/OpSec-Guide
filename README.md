@@ -10,3 +10,6 @@
 - [Tails auf USB-Stick | Security Stage 2](06_Tor_Tails_Whonix.md)
 - [Hochsicheres Whonix System | Security Stage 3](06_Tor_Tails_Whonix.md)
 - [Finish](07_Finish.md)
+
+> Credits:
+> [xqi](https://github.com/apostel1337)
